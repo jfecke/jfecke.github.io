@@ -1,0 +1,138 @@
+.header{
+    border-bottom: 1.5px solid #0062B1; 
+    height: 82px;
+    width: 100%;
+    background: #ffffff;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+ }
+ 
+ .toolbar {
+     max-width: 960px;
+     margin: 0 auto;
+ }
+ 
+ .name {
+     font-family: 'Georgia', Times, Times New Roman, serif;
+     float: left;
+     height: 63px;
+     width: 200px;
+     background: #0062B1;
+     color: white;
+     position: fixed;
+     top: 0;
+     margin: 0px;    
+     font-size: 30px;
+     text-align: center;
+     padding-top: 20px;
+     font-weight: bold;
+ }
+ 
+ .buttons {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     float: right;
+     height: 53px;
+     width: 85px;
+     text-align: center;
+     padding-top: 30px;
+     font-size: 18px;
+     color: #003865;
+     text-decoration: none;
+ }
+
+.dropdown-content {
+    margin-top: 32px;
+    position: absolute;
+    background-color: #ffffff;
+    width: 85px;
+    z-index: 10000;
+    display: none;
+    border: 1px solid #0062B1;
+}
+
+.dropdown-content a {
+    float: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #003865;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    z-index: 1000;
+    border-top: 2px solid #0062B1;
+    font-size: 16px;
+}
+
+.dropdown {
+    cursor: pointer;  
+}
+
+.dropdown-content:hover{
+    display: block;
+
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+.dropdown-content a:hover{
+    background-color: #008DFE
+}
+
+.buttons:hover{
+    background-color: #008DFE
+}
+
+
+@media screen and (max-width: 960px) {
+    .name {
+        margin-left: 20px;
+    }
+
+    .toolbar {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .name {
+        width:100%;
+        max-width: 640px;
+        float: none;
+        margin: 0;
+        display: block;
+        position: absolute;
+    }
+
+    .header {
+        height: 65px;
+        position: static;
+    }
+
+    .toolbar {
+        margin: 0px;
+    }
+
+    .buttons {
+        height: 40px;
+        float: right;
+        padding-top: 25px;
+    }
+
+    .btn-group {
+        width: 255px;
+        display: block;
+        padding: 0;
+        height: 60px;
+        margin: 83px auto 0 auto;
+    }
+
+    .dropdown-content {
+        margin-top: 21px;
+    }
+
+
+}
