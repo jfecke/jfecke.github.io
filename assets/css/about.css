@@ -75,6 +75,18 @@ footer {
     margin-bottom: 0px;
 }
 
+#button-holder{
+    width: 400px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#button-holder img{
+    height: 100px;
+    width: 100px;
+    margin: 0 40px;
+}
+
 @media screen and (max-width: 960px) {
     .body {
         width: 90%;
@@ -113,4 +125,16 @@ footer {
     .aboutme {
         text-align: center;
     }
+
+    #button-holder{
+        width: 310px;
+        height: 50px;
+    }
+    
+    #button-holder img{
+        height: 50px;
+        width: 50px;
+        margin: 0 50px;
+    }
+
 }
