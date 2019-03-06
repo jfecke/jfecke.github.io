@@ -4,7 +4,14 @@ import "./style.css";
 function About(props) {
   return (
     <div  className="aboutme">
-      This is where my about section goes.
+      <div className="ContainerofBtn">
+        <a href="https://www.linkedin.com/in/joelfecke/" className="leftpos">
+          <img  src={process.env.PUBLIC_URL + "/assets/images/linkedin.png"} alt="#" />
+        </a>
+        <a href="https://github.com/jfecke" className="rightpos">
+          <img src={process.env.PUBLIC_URL + "/assets/images/github.png"} alt="#" />
+        </a>
+      </div>
     </div>
   );
 }

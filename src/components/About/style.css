@@ -1,3 +1,28 @@
 .aboutme {
   display: block;
 }
+
+.ContainerofBtn {
+  height: 250px;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.ContainerofBtn img {
+  height: 100%;
+  width: 100%;
+}
+
+.leftpos {
+  position: absolute;
+  left: 25%;
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.rightpos {
+  position: absolute;
+  right: 25%;
+  max-height: 200px;
+  max-width: 200px;
+}

@@ -2,23 +2,28 @@
     color: white;
 }
 nav {
-    position: relative;
+    position: fixed;
 }
 
 .topright {
-    right: 10%;
+    right: 13%;
     position: absolute;
-}
-
-.center {
-    margin: 0 45% 0 auto;
 }
 
 .navbar-brand {
     font-size: 32px;
     font-weight: bold;
+    margin: 0 auto 0 12%;
 }
 
 .navbarcolor{
     background: #0062B1;
+}
+
+body {
+    background: url(./assets/images/background.png);
+}
+
+.inLine {
+    display: inline-block;
 }
