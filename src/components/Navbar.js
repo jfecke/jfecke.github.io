@@ -7,7 +7,7 @@ function Navbar(props) {
         <div className ="navbar-brand">Joel Fecke</div>      
         <div className = "white topright">
           <h3>
-            <div className="inLine" onclick={document.getElementById("portfolio").scrollIntoView()}>Portfolio</div> | <div className="inLine" onclick={props.scrollto}>About</div>
+            <div className="inLine">Portfolio</div> | <div className="inLine">About</div>
           </h3>
         </div>
     </nav>
