@@ -4,49 +4,63 @@
     "name": "Halloween Hangman",
     "image": "/assets/images/word.jpg",
     "url": "https://www.joelfecke.com/Word-Guess-Game/",
-    "description": "A Halloween themed word guess game."
+    "description": "A Halloween themed word guess game.",
+    "technologies": "",
+    "git": "https://github.com/jfecke/Word-Guess-Game"
   },
   {
     "id": 2,
     "name": "Rock Paper Scissors",
     "image": "/assets/images/rps.png",
     "url": "https://jfecke.github.io/RPS-Multiplayer/",
-    "description": "A multiplayer Rock Paper Scissors game using Firebase."
+    "description": "A multiplayer Rock Paper Scissors game using Firebase.",
+    "technologies": "",
+    "git": "https://github.com/jfecke/RPS-Multiplayer"
   },
   {
     "id": 3,
     "name": "Trivia Game",
     "image": "/assets/images/trivia.jpg",
     "url": "https://jfecke.github.io/TriviaGame",
-    "description": "A timed multiple choice science themed trivia game."
+    "description": "A timed multiple choice science themed trivia game.",
+    "technologies": "",
+    "git": "https://github.com/jfecke/TriviaGame"
   },
   {
     "id": 4,
     "name": "DBZ Clicky Game",
     "image": "/assets/images/dbz.png",
     "url": "https://dbzclickygame.herokuapp.com/",
-    "description": "A simple DBZ themed clicky game using React.js."
+    "description": "A simple DBZ themed clicky game using React.js.",
+    "technologies": "",
+    "git": "https://github.com/jfecke/ClickyGame"
   },
   {
     "id": 5,
     "name": "LotR Click Game",
     "image": "/assets/images/rpggame.jpg",
     "url": "https://jfecke.github.io/unit-4-game/rpg.html",
-    "description": "A simple jQuery Lord of the Rings themed game."
+    "description": "A simple jQuery Lord of the Rings themed game.",
+    "technologies": "",
+    "git": "https://github.com/jfecke/unit-4-game"
   },
   {
     "id": 6,
     "name": "Game It Up",
-    "image": "/assets/images/chess.jpg",
+    "image": "/assets/images/gameitup.png ",
     "url": "https://gameitup.herokuapp.com/",
-    "description": "An app to find pick-up games using Node, Express, mySQL, and Sequelize."
+    "description": "An app to find pick-up games using Node, Express, mySQL, and Sequelize.",
+    "technologies": "",
+    "git": "https://github.com/jfecke/GameItUp"
   },
   {
     "id": 7,
     "name": "Reel Match",
     "image": "/assets/images/reelmatch.png",
     "url": "http://www.reel-match.com/",
-    "description": "An app that gives movie recommendations based on movies you like."
+    "description": "An app that gives movie recommendations based on movies you like.",
+    "technologies": "",
+    "git": "https://github.com/mollygilbert389/GroupProject"
   }
 ]
 

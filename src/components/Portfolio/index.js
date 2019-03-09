@@ -14,44 +14,48 @@ class Form extends Component {
     url: "",
     modalState: "hide-modal",
     src: "",
+    technologies: "",
     projects
   };
 
   handleClick = event => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
+    // Preventing the default behavior of refreshing the page
     event.preventDefault();
-    console.log(event.target);
     this.setState({
       modalState: "show-modal",
       name: event.target.name,
       src: event.target.getAttribute("src"),
       url: event.target.getAttribute("href"),
-      description: event.target.getAttribute("description")
+      description: event.target.getAttribute("description"),
+      technologies: event.target.getAttribute("technologies"),
+      git: event.target.getAttribute("git")
     });
   };
 
-  mouseOver = event => {
-    event.preventDefault();
-    console.log(event.target);
-  }
-
-  toggleModal = (event) => {
-    event.preventDefault();
-    if (this.state.modalState === "hide-modal") {
-      this.setState({modalState: "show-modal"})
-    } else if (this.state.modalState === "show-modal") {
+  closeModal = (event) => {
+    if (event.target.id === "closeme" || event.target.id === "modal") {
+      event.preventDefault();
       this.setState({modalState: "hide-modal"})
+    }else {
+      
     }
   }
+
   render() {
     return (
       <div>
-        <div id="modal" className={this.state.modalState}>
+        <div id="modal" className={this.state.modalState} onClick={this.closeModal}>
           <div id="portfolioscreen" className="modal-content">
               <div>
                 <img src={this.state.src} alt={this.state.src} className="portfolio-image" />
+                <div className="description"><strong>Description: </strong>{this.state.description}</div>
+                <div className="technologies"><strong>Technologies: </strong>{this.state.technologies}</div>
+                <div className="placeForButtons">
+                  <a className="btn btn-primary" href={this.state.url} target="_blank" rel="noopener noreferrer">Project Link</a>
+                  <a className="btn btn-primary" href={this.state.git} target="_blank" rel="noopener noreferrer">Github Repo</a>
+                </div>
               </div>
-              <button onClick={this.toggleModal}>Toggle</button>
+              <button id="closeme" className="btn btn-outline-danger closebtn" onClick={this.closeModal}>Close</button>
           </div>
         </div>
         <Navbar score={this.state.score} topscore={this.state.topscore} message={this.state.message} />
@@ -64,7 +68,8 @@ class Form extends Component {
             key={project.name}
             url={project.url}
             description={project.description}
-            mouseover={this.state.mouseOver}
+            technologies={project.technologies}
+            git={project.git}
           />
         ))}
         </Wrapper>
