@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name": "DBZ Clicky Game",
-    "image": "/assets/images/dbz.png",
+    "image": "/assets/images/dbz.PNG",
     "url": "https://dbzclickygame.herokuapp.com/",
     "description": "A simple DBZ themed clicky game using React.js.",
     "technologies": "",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "name": "Game It Up",
-    "image": "/assets/images/gameitup.png ",
+    "image": "/assets/images/gameitup.PNG ",
     "url": "https://gameitup.herokuapp.com/",
     "description": "An app to find pick-up games using Node, Express, mySQL, and Sequelize.",
     "technologies": "",

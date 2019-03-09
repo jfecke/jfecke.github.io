@@ -32,7 +32,7 @@ class Form extends Component {
     });
   };
 
-  closeModal = (event) => {
+  closeModal = (event) => { 
     if (event.target.id === "closeme" || event.target.id === "modal") {
       event.preventDefault();
       this.setState({modalState: "hide-modal"})
