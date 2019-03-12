@@ -41,6 +41,14 @@ class Form extends Component {
     }
   }
 
+  scrollBottom = () => {
+    window.scrollTo(0,document.body.scrollHeight);
+  }
+
+  scrollTop = () => {
+    window.scrollTo(0,0);
+  }
+
   render() {
     return (
       <div>
@@ -58,7 +66,7 @@ class Form extends Component {
               <button id="closeme" className="btn btn-outline-danger closebtn" onClick={this.closeModal}>Close</button>
           </div>
         </div>
-        <Navbar score={this.state.score} topscore={this.state.topscore} message={this.state.message} />
+        <Navbar scrollBottom={this.scrollBottom} scrollTop={this.scrollTop} />
         <Wrapper id="portfolio">
         {this.state.projects.map(project => (
           <Cards
