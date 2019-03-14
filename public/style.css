@@ -154,7 +154,7 @@ body {
         border-radius: 2px;
         max-height: 150px;
         max-width: 150px;
-        margin: 1.5rem 3rem;
+        margin: 50px 3rem;
         position: relative;
         border: 2px solid black;
         text-align: left;
@@ -162,7 +162,7 @@ body {
 
     .description {
         padding: 10px 10px;
-        min-height: 50px;
+        height: 100%;
     }
 
     .technologies {
