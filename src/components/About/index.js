@@ -1,10 +1,10 @@
 import React from "react";
+import Wrapper from "../Wrapper";
 import "./style.css";
 
 function About(props) {
   return (
-    <div  className="aboutme">
-      <div className="ContainerofBtn">
+    <Wrapper>
         <a href="https://www.linkedin.com/in/joelfecke/" target="_blank" rel="noopener noreferrer" className="card card2">
           <img src={process.env.PUBLIC_URL + "/assets/images/linkedIn.png"}alt="#" />
         </a>
@@ -14,8 +14,7 @@ function About(props) {
         <a href="https://github.com/jfecke" target="_blank" rel="noopener noreferrer" className="card card2">
           <img src={process.env.PUBLIC_URL + "/assets/images/github.png"} alt="#" />
         </a>
-      </div>
-    </div>
+    </Wrapper>
   );
 }
 

@@ -6,6 +6,10 @@ nav {
 }
 
 .topright {
+    font-size: 32px;
+}
+
+.topright {
     right: 13%;
     position: absolute;
 }
@@ -126,4 +130,14 @@ body {
     position: absolute;
     top: 10px;
     right: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    .navbar-brand {
+        font-size: 16px;
+    }
+
+    .topright {
+        font-size: 16px;
+    }
 }

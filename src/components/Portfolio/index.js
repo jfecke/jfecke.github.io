@@ -81,9 +81,8 @@ class Form extends Component {
           />
         ))}
         </Wrapper>
-        <Wrapper id="aboutme">
         <About />
-        </Wrapper>
+
         
       </div>
     );
