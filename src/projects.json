@@ -5,7 +5,7 @@
     "image": "/assets/images/word.jpg",
     "url": "https://www.joelfecke.com/Word-Guess-Game/",
     "description": "A Halloween themed word guess game.",
-    "technologies": "",
+    "technologies": "jQuery, Javascript, CSS, HTML",
     "git": "https://github.com/jfecke/Word-Guess-Game"
   },
   {
@@ -14,7 +14,7 @@
     "image": "/assets/images/rps.png",
     "url": "https://jfecke.github.io/RPS-Multiplayer/",
     "description": "A multiplayer Rock Paper Scissors game using Firebase.",
-    "technologies": "",
+    "technologies": "Firebase, jQuery, Javascript, CSS, HTML",
     "git": "https://github.com/jfecke/RPS-Multiplayer"
   },
   {
@@ -23,7 +23,7 @@
     "image": "/assets/images/trivia.jpg",
     "url": "https://jfecke.github.io/TriviaGame",
     "description": "A timed multiple choice science themed trivia game.",
-    "technologies": "",
+    "technologies": "Javascript, CSS, HTML",
     "git": "https://github.com/jfecke/TriviaGame"
   },
   {
@@ -32,7 +32,7 @@
     "image": "/assets/images/dbz.PNG",
     "url": "https://dbzclickygame.herokuapp.com/",
     "description": "A simple DBZ themed clicky game using React.js.",
-    "technologies": "",
+    "technologies": "React.js, Javascript, CSS, HTML",
     "git": "https://github.com/jfecke/ClickyGame"
   },
   {
@@ -41,7 +41,7 @@
     "image": "/assets/images/rpggame.jpg",
     "url": "https://jfecke.github.io/unit-4-game/rpg.html",
     "description": "A simple jQuery Lord of the Rings themed game.",
-    "technologies": "",
+    "technologies": "Javascript, CSS, HTML",
     "git": "https://github.com/jfecke/unit-4-game"
   },
   {
@@ -49,8 +49,8 @@
     "name": "Game It Up",
     "image": "/assets/images/gameitup.PNG ",
     "url": "https://gameitup.herokuapp.com/",
-    "description": "An app to find pick-up games using Node, Express, mySQL, and Sequelize.",
-    "technologies": "",
+    "description": "An app to find pick-up games using Node.js, Express, mySQL, and Sequelize.",
+    "technologies": "Node.js, Express, mySQL, Sequelize, Bootstrap",
     "git": "https://github.com/jfecke/GameItUp"
   },
   {
@@ -59,7 +59,7 @@
     "image": "/assets/images/reelmatch.png",
     "url": "http://www.reel-match.com/",
     "description": "An app that gives movie recommendations based on movies you like.",
-    "technologies": "",
+    "technologies": "Firebase, Javascript, CSS, HTML",
     "git": "https://github.com/mollygilbert389/GroupProject"
   }
 ]
