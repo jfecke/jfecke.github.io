@@ -43,12 +43,13 @@
 @media screen and (max-width: 640px) {
   .label {
     font-size: 10px;
-    height: 10px;
-    border-bottom-left-radius: 70px;
-    border-bottom-right-radius: 70px;
+    height: 15px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
     padding-top: 0%;
     padding-bottom: 5%;
     border-bottom: 3px solid #0062B1;
-    width: 98%;
+    width: 100%;
+    bottom: 10px;
   }
 }
