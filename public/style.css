@@ -115,7 +115,7 @@ body {
 }
 
 .btn-primary {
-    margin: 0 20px;
+    margin: 5px 20px;
     height: 50px;
     width: 150px;
     padding-top: 12px;
@@ -139,5 +139,34 @@ body {
 
     .topright {
         font-size: 16px;
+    }
+
+    .modal-content {
+        margin: 100px auto;
+        background-color: #fefefe;
+        border: 10px solid #0086F1;
+        min-height: 500px;
+        width: 90%;
+    }
+
+    .portfolio-image {
+        background: #fff;
+        border-radius: 2px;
+        max-height: 150px;
+        max-width: 150px;
+        margin: 1.5rem 3rem;
+        position: relative;
+        border: 2px solid black;
+        text-align: left;
+    }
+
+    .description {
+        padding: 10px 10px;
+        min-height: 50px;
+    }
+
+    .technologies {
+        min-height: 50px;
+        padding: 10px 10px;
     }
 }
