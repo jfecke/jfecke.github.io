@@ -1,0 +1,35 @@
+import React from "react";
+import Wrapper from "../Wrapper";
+import "./style.css";
+
+function About(props) {
+  return (
+    <Wrapper>
+        <div className="aboutme"> 
+          <div className="card mypic">
+            <img src={process.env.PUBLIC_URL + "/assets/images/joel.jpg"} alt="#" />
+          </div>
+          <div className="card mybio">
+            Full Stack Web Developer with a passion for object-oriented programing. Currently a Certified Scrum Master with 
+            a BS in Mechanical Engineering. Experienced project manager with a proven record of leadership and execution of 
+            complex and challenging technical projects. Diverse military and civilian background spanning multiple disciplines 
+            and industries. Strong interpersonal and communication skills utilized to lead and motivate cross-functional teams 
+            to achieve stretch goals. Creative and innovative problem solver with relentless focus on learning new skills.
+          </div>
+        </div>
+        
+        
+        <a href="https://www.linkedin.com/in/joelfecke/" target="_blank" rel="noopener noreferrer" className="card card2">
+          <img src={process.env.PUBLIC_URL + "/assets/images/linkedIn.png"}alt="#" />
+        </a>
+        <a href="https://docs.google.com/document/d/1tWfq-OUi5l_meuzdo1xfOeoL4lNlJ4hA41YoQEdAeVc/edit?usp=sharing" target="_blank" rel="noopener noreferrer" className="card card2">
+          <img src={process.env.PUBLIC_URL + "/assets/images/resume.png"} alt="#" />
+        </a>
+        <a href="https://github.com/jfecke" target="_blank" rel="noopener noreferrer" className="card card2">
+          <img src={process.env.PUBLIC_URL + "/assets/images/github.png"} alt="#" />
+        </a>
+    </Wrapper>
+  );
+}
+
+export default About;

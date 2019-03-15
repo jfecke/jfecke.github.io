@@ -1,0 +1,172 @@
+.white {
+    color: white;
+}
+nav {
+    position: fixed;
+}
+
+.topright {
+    font-size: 32px;
+}
+
+.topright {
+    right: 13%;
+    position: absolute;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 auto 0 12%;
+}
+
+.navbarcolor{
+    background: #0062B1;
+}
+
+body {
+    background: url(./assets/images/background.png);
+}
+
+.inLine {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.hide-modal {
+    display: none;
+}
+
+.show-modal {
+    display: inline-block;
+}
+
+#fixthis {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    z-index: 1000;
+}
+
+#modal {
+    position: fixed; 
+    z-index: 1000; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content {
+    display:block;
+    margin: 200px auto;
+    background-color: #fefefe;
+    border: 10px solid #0086F1;
+    min-height: 450px;
+    width: 60%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#portfolio {
+    margin-top: 100px;
+}
+
+.portfolio-image {
+    background: #fff;
+    border-radius: 2px;
+    max-height: 300px;
+    max-width: 300px;
+    margin: 1.5rem 3rem;
+    position: relative;
+    border: 2px solid black;
+    text-align: left;
+}
+
+.description {
+    text-align: left;
+    width: 80%;
+    min-height: 25px;
+    border: 2px solid rgba(0,0,0,0.4);;
+    margin: 5px auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.technologies {
+    text-align: left;
+    width: 80%;
+    min-height: 25px;
+    border: 2px solid rgba(0,0,0,0.4);;
+    margin: 5px auto;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.placeForButtons{
+    height: 100%;
+    min-width: 60%;
+    margin: 15px auto 30px auto;
+    position: relative;
+}
+
+.btn-primary {
+    margin: 5px 20px;
+    height: 50px;
+    width: 150px;
+    padding-top: 12px;
+}
+
+.fauxButton a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    .navbar-brand {
+        font-size: 16px;
+    }
+
+    .topright {
+        font-size: 16px;
+    }
+
+    .modal-content {
+        margin: 100px auto;
+        background-color: #fefefe;
+        border: 10px solid #0086F1;
+        min-height: 500px;
+        width: 90%;
+    }
+
+    .portfolio-image {
+        background: #fff;
+        border-radius: 2px;
+        max-height: 200px;
+        max-width: 200px;
+        margin: 60px 3rem 30px 3rem;
+        position: relative;
+        border: 2px solid black;
+        text-align: left;
+    }
+
+    .description {
+        padding: 10px 10px;
+        height: 100%;
+    }
+
+    .technologies {
+        min-height: 50px;
+        padding: 10px 10px;
+    }
+}
