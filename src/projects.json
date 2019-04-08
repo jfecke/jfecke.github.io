@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "FoodBook",
-    "image": "/assets/images/foodbook.PNG",
+    "image": "https://gdurl.com/hoRT",
     "url": "http://foodbook223.herokuapp.com/",
     "description": "An app that allows users to get reviews and recommendations of restraunts by follownig other users.",
     "technologies": "Express, Node.JS, Mongoose, Mongodb, Redux, React",
