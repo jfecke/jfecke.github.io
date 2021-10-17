@@ -28,6 +28,15 @@
   },
   {
     "id": 4,
+    "name": "Project Boost",
+    "image": "/assets/images/ProjectBoost.JPG",
+    "url": "https://jfecke.github.io/ProjectBoost/",
+    "description": "A lander game made using Unity.",
+    "technologies": "Unity, C#",
+    "git": "https://github.com/jfecke/ProjectBoost"
+  },
+  {
+    "id": 5,
     "name": "Rock Paper Scissors",
     "image": "/assets/images/rps.png",
     "url": "https://jfecke.github.io/RPS-Multiplayer/",
@@ -36,7 +45,7 @@
     "git": "https://github.com/jfecke/RPS-Multiplayer"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Trivia Game",
     "image": "/assets/images/trivia.png",
     "url": "https://jfecke.github.io/TriviaGame",
@@ -45,7 +54,7 @@
     "git": "https://github.com/jfecke/TriviaGame"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "DBZ Clicky Game",
     "image": "/assets/images/dbz.PNG",
     "url": "https://dbzclickygame.herokuapp.com/",
@@ -54,7 +63,7 @@
     "git": "https://github.com/jfecke/ClickyGame"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Halloween Hangman",
     "image": "/assets/images/word.jpg",
     "url": "https://jfecke.github.io/Word-Guess-Game/",
